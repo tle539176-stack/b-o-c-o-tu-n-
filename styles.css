@@ -562,9 +562,13 @@ a {
 }
 
 @media (max-width: 760px) {
+  .hero {
+    min-height: auto;
+  }
+
   .hero__inner,
   .section-shell {
-    width: min(100% - 28px, 1180px);
+    width: min(100% - 24px, 1180px);
   }
 
   .hero__inner {
@@ -572,28 +576,40 @@ a {
   }
 
   .hero h1 {
-    font-size: 2.15rem;
+    font-size: 2.05rem;
+    line-height: 1.14;
   }
 
   .hero__lead {
-    font-size: 0.98rem;
+    font-size: 0.96rem;
+  }
+
+  .section-heading {
+    margin-bottom: 24px;
   }
 
   .section-heading h2 {
-    font-size: 1.62rem;
+    font-size: 1.56rem;
+    line-height: 1.25;
   }
 
-  .metric-card strong {
-    font-size: 1.72rem;
+  .metric-card strong,
+  .output-strip strong {
+    font-size: 1.6rem;
   }
 
   .report-section {
-    padding: 58px 0;
+    padding: 52px 0;
+  }
+
+  .section-nav {
+    gap: 8px;
   }
 
   .section-nav a {
     width: 100%;
     justify-content: flex-start;
+    padding: 10px 12px;
   }
 
   .progress-grid,
@@ -605,12 +621,26 @@ a {
   }
 
   .progress-item,
-  .metric-card {
+  .change-row,
+  .lesson-column,
+  .risk-list article,
+  .metric-card,
+  .funnel-panel,
+  .top-video,
+  .output-strip div {
+    padding: 16px;
+  }
+
+  .progress-item,
+  .metric-card,
+  .lesson-column,
+  .output-strip div {
     min-height: auto;
   }
 
   .change-row {
     grid-template-columns: 1fr;
+    gap: 12px;
   }
 
   .change-arrow {
@@ -625,10 +655,16 @@ a {
 
   .funnel-label {
     display: grid;
+    gap: 6px;
   }
 
   .funnel-label strong {
     white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  .top-video__stats {
+    gap: 8px;
   }
 
   .top-video__stats div {
@@ -639,5 +675,24 @@ a {
 
   .top-video__stats div:last-child {
     border-bottom: 0;
+  }
+}
+
+@media (max-width: 420px) {
+  .hero h1 {
+    font-size: 1.82rem;
+  }
+
+  .section-heading h2 {
+    font-size: 1.38rem;
+  }
+
+  .eyebrow,
+  .section-kicker {
+    font-size: 0.72rem;
+  }
+
+  .report-section {
+    padding: 44px 0;
   }
 }
