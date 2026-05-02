@@ -1,6 +1,6 @@
 # Web báo cáo tuần kênh Bác sĩ Phúc
 
-Đây là static site dùng một lần cho báo cáo giai đoạn 18 tháng 4 - 24 tháng 4.
+Đây là static site dùng một lần cho báo cáo giai đoạn 27 tháng 4 - 2 tháng 5.
 
 ## Cách xem local
 
