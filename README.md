@@ -1,28 +1,15 @@
-# Web báo cáo tuần kênh Bác sĩ Phúc
+# Báo cáo tuần kênh Tiến sĩ Đặng Hữu Phúc
 
-Đây là static site dùng một lần cho báo cáo giai đoạn 16 tháng 5 - 23 tháng 5.
+Báo cáo tĩnh cho tuần 01/06/2026 - 06/06/2026.
 
 ## Cách xem local
 
-Mở trực tiếp file:
+Mở trực tiếp file `index.html` trong trình duyệt.
 
-```text
-index.html
-```
+## Dữ liệu đã dùng
 
-Không cần Node.js, npm, backend hay database.
+- `Số liệu kênh/Jun-01-2026_Jun-06-2026_Trang_Hoạt động_Chia nhỏ theo ngày_991452630511371.csv`
+- `Số liệu kênh/Jun-01-2026_Jun-06-2026_Nội dung_Thời gian đăng_Tóm tắt_3656832667805033.csv`
+- `báo cáo ADS tuần 1 tháng 6  .csv`
 
-## Cách deploy Vercel
-
-Cách đơn giản nhất:
-
-1. Đẩy thư mục `web-bao-cao` lên GitHub.
-2. Import repository vào Vercel.
-3. Khi Vercel hỏi framework, chọn `Other` hoặc để Vercel tự nhận static site.
-4. Build command để trống.
-5. Output directory để trống hoặc dùng mặc định.
-
-Các file chính:
-- `index.html`: nội dung và cấu trúc báo cáo.
-- `styles.css`: giao diện responsive.
-- `vercel.json`: cấu hình URL sạch cho static site.
+Các số liệu, video và nội dung cũ ngoài tuần 01/06/2026 - 06/06/2026 đã được loại khỏi phần hiển thị báo cáo.
